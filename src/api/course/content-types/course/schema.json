@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "Course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "fellowships",
+        "certifications"
+      ],
+      "required": true
+    },
+    "courseAbout": {
+      "type": "richtext",
+      "required": true
+    },
+    "courseAboutImg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "videoLink": {
+      "type": "text",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "richtext"
+    },
+    "courseHeaderImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "roadmap": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.items"
+    },
+    "glimpse": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.img"
+    },
+    "primaryColor": {
+      "type": "string"
+    }
+  }
+}

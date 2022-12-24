@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_component_imgs",
+  "info": {
+    "displayName": "imgs",
+    "icon": "arrow-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

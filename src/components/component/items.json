@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_items",
+  "info": {
+    "displayName": "items",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

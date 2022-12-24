@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_component_awards",
+  "info": {
+    "displayName": "awards",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.img"
+    }
+  }
+}

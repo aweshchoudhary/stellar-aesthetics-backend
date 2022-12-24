@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "course_directors",
+  "info": {
+    "singularName": "course-director",
+    "pluralName": "course-directors",
+    "displayName": "courseDirector",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "imgs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.img"
+    },
+    "card": {
+      "displayName": "card",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.card"
+    },
+    "heading": {
+      "type": "richtext"
+    },
+    "awards": {
+      "type": "richtext"
+    }
+  }
+}

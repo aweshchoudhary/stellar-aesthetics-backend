@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_glimpses",
+  "info": {
+    "displayName": "glimpses",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "displayName": "img",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.img"
+    }
+  }
+}
