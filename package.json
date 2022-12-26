@@ -15,7 +15,6 @@
     "@strapi/plugin-users-permissions": "4.5.4",
     "@strapi/strapi": "4.5.4",
     "mysql": "2.18.1",
-    "strapi-plugin-fuzzy-search": "^1.10.2",
     "strapi-plugin-rest-cache": "^4.2.5"
   },
   "author": {
