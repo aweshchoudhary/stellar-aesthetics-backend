@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_sections",
+  "info": {
+    "displayName": "Section",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

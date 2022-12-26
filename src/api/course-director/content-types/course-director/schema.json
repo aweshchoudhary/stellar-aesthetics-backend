@@ -31,17 +31,17 @@
       "repeatable": true,
       "component": "component.img"
     },
-    "card": {
-      "displayName": "card",
-      "type": "component",
-      "repeatable": true,
-      "component": "component.card"
-    },
     "heading": {
       "type": "richtext"
     },
     "awards": {
       "type": "richtext"
+    },
+    "directorImgs": {
+      "displayName": "director-images",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.director-images"
     }
   }
 }

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_director_images",
+  "info": {
+    "displayName": "director-images"
+  },
+  "options": {},
+  "attributes": {
+    "awardImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

@@ -9,14 +9,13 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^1.1.2",
     "@strapi/plugin-i18n": "4.5.4",
     "@strapi/plugin-users-permissions": "4.5.4",
     "@strapi/strapi": "4.5.4",
     "mysql": "2.18.1",
-    "strapi-plugin-meilisearch": "^0.8.2",
+    "strapi-plugin-fuzzy-search": "^1.10.2",
     "strapi-plugin-rest-cache": "^4.2.5"
   },
   "author": {

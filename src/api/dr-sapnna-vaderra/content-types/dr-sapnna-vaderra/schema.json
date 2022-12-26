@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "dr_sapnna_vaderras",
+  "info": {
+    "singularName": "dr-sapnna-vaderra",
+    "pluralName": "dr-sapnna-vaderras",
+    "displayName": "Dr Sapnna Vaderra"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "featuredImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "section": {
+      "displayName": "Section",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.section"
+    }
+  }
+}
