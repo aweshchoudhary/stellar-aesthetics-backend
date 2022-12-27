@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "procedure_sliders",
+  "info": {
+    "singularName": "procedure-slider",
+    "pluralName": "procedure-sliders",
+    "displayName": "Procedure Slider"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "face",
+        "hair",
+        "skin",
+        "body"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
