@@ -4,7 +4,8 @@
   "info": {
     "singularName": "dr-sapnna-vaderra",
     "pluralName": "dr-sapnna-vaderras",
-    "displayName": "Dr Sapnna Vaderra"
+    "displayName": "Dr Sapnna Vaderra",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,15 @@
   "pluginOptions": {},
   "attributes": {
     "featuredImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "section": {
       "displayName": "Section",

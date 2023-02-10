@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_social_links",
+  "info": {
+    "displayName": "Social Links",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

@@ -2,7 +2,8 @@
   "collectionName": "components_component_sections",
   "info": {
     "displayName": "Section",
-    "icon": "ambulance"
+    "icon": "ambulance",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,12 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "imgGroup": {
+      "displayName": "Images",
+      "type": "component",
+      "repeatable": true,
+      "component": "new-component.images"
     }
   }
 }
